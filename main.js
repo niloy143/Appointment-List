@@ -36,7 +36,7 @@ patientNumber.addEventListener('input', function () {
 
 addPatient.addEventListener('click', function (x) {
     x.preventDefault();
-    if (patientName.value === '' || patientNumber.value === '' || appointmentDate.value === '') {
+    if (patientName.value === '' || patientName.value.length < 2 || patientNumber.value === '' || patientNumber.value.length < 3 || appointmentDate.value === '') {
         return;
     }
     else {
