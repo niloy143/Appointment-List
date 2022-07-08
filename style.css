@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #555;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appointment h2 {
+    font-size: 4rem;
+    padding: 4rem;
+    color: orange;
+}
+
+.appointment form {
+    width: 50%;
+}
+
+.appointment input {
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 1.6rem 1rem;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: .3rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.appointment input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#button {
+    padding: 0;
+    margin: 2rem auto 4rem;
+    background: rgba(255, 166, 0, 0.5);
+    cursor: pointer;
+    box-shadow: 5px 5px 3.5px rgba(0, 0, 0, 0.2), -5px -5px 3.5px rgba(0, 0, 0, 0.2);
+    width: 30%;
+}
+
+#button:active {
+    box-shadow: none;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 55%;
+}
+
+.appointment th{
+    padding: 1rem 0;
+}
+
+.appointment td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: .5rem 0;
+}
+
+.appointment td select {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.appointment td img {
+    width: 30px;
+    cursor: pointer;
+    margin-top: .2rem;
+}
