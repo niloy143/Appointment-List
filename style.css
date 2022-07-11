@@ -61,9 +61,9 @@ body {
 
 table {
     border-collapse: collapse;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
-    width: 55%;
+    width: 70%;
 }
 
 .appointment th{
@@ -79,7 +79,7 @@ table {
     border: none;
     outline: none;
     background: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .appointment td img {
